@@ -15,3 +15,7 @@
 
 - sqlite3
 - knex
+
+# Plus
+
+- separar o repositório

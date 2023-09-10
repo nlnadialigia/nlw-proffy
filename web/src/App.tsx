@@ -1,9 +1,8 @@
 import "./assets/styles/global.css";
-import Landing from "./pages/Landing";
-
+import Router from "./routes";
 function App() {
   return (
-    <Landing />
+    <Router />
   );
 }
 

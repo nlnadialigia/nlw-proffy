@@ -5,6 +5,7 @@ import studyIcon from "../../assets/images/icons/study.svg";
 import landingImg from "../../assets/images/landing.svg";
 import logoImg from "../../assets/images/logo.svg";
 
+import {Link} from 'react-router-dom';
 import "./styles.css";
 
 const Landing: React.FC = () => {
@@ -15,16 +16,16 @@ const Landing: React.FC = () => {
           <img src={logoImg} alt="Proffy" />
           <h2>Sua plataforma de estudos online</h2>
         </div>
-        <img src={landingImg} alt="" className="hero-image" />
+        <img src={landingImg} alt="Landing" className="hero-image" />
         <div className="buttons-container">
-          <a href="" className='study'>
+          <Link to="/study" className='study'>
             <img src={studyIcon} alt="Estudar" />
             Estudar
-          </a>
-          <a href="" className='give-classes'>
+          </Link>
+          <Link to="/give-classes" className='give-classes'>
             <img src={giveClassesIcon} alt="Dar aulas" />
             Dar aulas
-          </a>
+          </Link>
         </div>
         <span className="total-connections">
           Total de 200 conexões já realizadas

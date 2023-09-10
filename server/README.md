@@ -19,3 +19,4 @@
 # Plus
 
 - separar o repositório
+- documentação

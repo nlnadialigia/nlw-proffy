@@ -13,6 +13,8 @@
     "restart": "npm run del:database & npm run migrate:latest & npm run dev"
   },
   "dependencies": {
+    "@types/cors": "^2.8.14",
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "knex": "^2.5.1",
     "sqlite3": "^5.1.6"

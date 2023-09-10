@@ -11,8 +11,8 @@ export async function up(knex: Knex) {
       .onUpdate("CASCADE")
       .onDelete("CASCADE");
     
-    table.timestamp("created_at")
-      .defaultTo("now()")
+    table.timestamp("created_at", {precision: 6})
+      .defaultTo(knex.fn.now())
       .notNullable();
   });
 }

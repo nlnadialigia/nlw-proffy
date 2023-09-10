@@ -41,16 +41,17 @@ Projeto desenvolvido durante a **NLW - Next Level Week 2ª edição** oferecida 
 
 ## 📎 Funcionalidades
 
-<!--
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-📌
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-📌
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-📌
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-📌
--->
+📌 Conexões
+
+- Rota para lista o total de conexões realizadas
+- Rota para criar uma nova conexão (quando entrar em contato)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+📌 Aulas
+
+- Rota para criação de aula
+- Listar aulas
+  - Filtrar por matéria, dia da semana e horário
 
 <br>
 
@@ -66,14 +67,14 @@ O layout da aplicação está disponível no [Figma](https://www.figma.com/file/
 
 ## 🚀 Como executar o projeto
 
-<!--
 Este projeto é divido em duas partes:
 
 1. Backend (pasta server)
 2. Frontend (pasta web)
 
 > 💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
--->
+
+<br>
 
 #### 🎲 Rodando o Backend (servidor)
 
@@ -98,17 +99,13 @@ $ npm run dev
 
 ```
 
+<br>
+
 #### 🪄 Testando os endpoints
 
-<!--
-A documentação dos endpoints se encontra no arquivo [swagger.json]()
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/14773197-0050dc4b-5264-46c6-b670-642c2019332e?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D14773197-0050dc4b-5264-46c6-b670-642c2019332e%26entityType%3Dcollection%26workspaceId%3D7971a1b7-792d-4b16-8887-ef0f4b4b3c35#?env%5Blocal%5D=W3sia2V5IjoiYmFzZV91cmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzMzMyIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0In1d)
 
-Para testar, **com a aplicação rodando**, acesse http://localhost:3333/api-docs
-
-<p align="center">
-  <img alt="Swagger" src="https://ik.imagekit.io/l7cwocexhc/ecoleta/swagger.png?updatedAt=1694204951409">
-</p>
--->
+<br>
 
 #### 🧭 Rodando a aplicação web (Frontend)
 
@@ -148,30 +145,23 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
 - **[React Icons](https://react-icons.github.io/react-icons/)**
 - **[Axios](https://github.com/axios/axios)**
-- **[Leaflet](https://react-leaflet.js.org/en/)**
-- **[React Leaflet](https://react-leaflet.js.org/)**
-- **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 > Veja o arquivo [package.json](https://github.com/nlnadialigia/nlw-ecoleta/blob/e96458f3f61583994e5d3e695b39d553fe541c3d/web/package.json)
  -->
 
 **Server** ([NodeJS](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/))
 
-<!--
 - **[Express](https://expressjs.com/)**
 - **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
 - **[KnexJS](http://knexjs.org/)**
 - **[SQLite](https://github.com/mapbox/node-sqlite3)**
 - **[ts-node](https://github.com/TypeStrong/ts-node)**
-- **[dotENV](https://github.com/motdotla/dotenv)**
-- **[Multer](https://github.com/expressjs/multer)**
-- **[Swagger](https://swagger.io/specification/)**
 
-> Veja o arquivo [package.json](https://github.com/nlnadialigia/nlw-ecoleta/blob/b10483592449973e5fc81416d9160b7d1af13128/server/package.json)
- -->
+> Veja o arquivo [package.json](https://github.com/nlnadialigia/nlw-proffy/blob/30b3b3b45dea32b795f3c166371cb67a2f1c7ea6/server/package.json)
 
 **Utilitários**
 
 - Protótipo: **[Figma](https://www.figma.com/)**
+- Documentação API: **[Postman](https://www.postman.com/)**
 
 <br>
 

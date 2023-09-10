@@ -6,10 +6,10 @@ export async function up(knex: Knex) {
     table.string("name").notNullable(),
     table.string("avatar").notNullable(),
     table.string("whatsapp").notNullable(),
-    table.string("bio").notNullable()
-  })
+    table.string("bio").notNullable();
+  });
 }
 
 export async function down(knex: Knex) {
-  knex.schema.dropTable("users")
+  knex.schema.dropTable("users");
 }

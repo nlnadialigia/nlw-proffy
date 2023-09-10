@@ -11,10 +11,10 @@ export async function up(knex: Knex) {
       .references("id")
       .inTable("users")
       .onUpdate("CASCADE")
-      .onDelete("CASCADE")
-  })
+      .onDelete("CASCADE");
+  });
 }
 
 export async function down(knex: Knex) {
-  knex.schema.dropTable("classes")
+  knex.schema.dropTable("classes");
 }

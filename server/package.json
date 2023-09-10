@@ -6,6 +6,7 @@
   "author": "Nadia <nlnadialigia@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "lint": "eslint --fix --ext .ts --ext .js .",
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules --respawn .",
     "migrate": "knex --knexfile knexfile.ts migrate:latest",
     "migrate:rollback": "knex --knexfile knexfile.ts migrate:rollback"

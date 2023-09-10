@@ -126,6 +126,9 @@ $ cd web
 # Instale as dependências
 $ npm install
 
+# Instalar o react-scripts global
+$ npm install -g react-scripts
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm run start
 

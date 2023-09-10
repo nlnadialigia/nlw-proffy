@@ -1,25 +1,34 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import backIcon from "../../assets/images/icons/back.svg";
-import logoImg from "../../assets/images/logo.svg";
+
+import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
 import './styles.css';
 
 const TeacherList: React.FC = () => {
   return (
     <div id="page-teacher-list" className='container'>
-      <header className="page-header">
-        <div className="top-bar-container">
-          <Link to="/" >
-            <img src={backIcon} alt="Ícone de voltar" />
-          </Link>
-          <img src={logoImg} alt="Logo Proffy" />
-        </div>
-        <div className="header-content">
-          <strong>Estes são os professores disponíveis.</strong>
-        </div>
-      </header>
+      <PageHeader title={"Estes são os professores disponíveis."}>
+        <form action="" id="search-teachers">
+          <div className="input-block">
+            <label htmlFor="subject">Matéria</label>
+            <input type="text" name="subject" id="subject" />
+          </div>
+          <div className="input-block">
+            <label htmlFor="week-day">Dia da semana</label>
+            <input type="text" name="week-day" id="week-day" />
+          </div>
+          <div className="input-block">
+            <label htmlFor="time">Horas</label>
+            <input type="text" name="time" id="time" />
+          </div>
+        </form>
+      </PageHeader>
+      <main>
+        <TeacherItem />
+      </main>
     </div>
   )
 }
 
 export default TeacherList;
+
